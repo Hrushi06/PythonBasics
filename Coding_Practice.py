@@ -298,6 +298,81 @@
 # print(marks)
 # print(s/len(marks))
 
-# # =-------------------------
+#------------------------
+
+
+# DAY 27 -- exercise 3 -- Kaun Banega Crorepati
+
+
+
+# DAY 28 -- F-String
+
+
+# country  = "india"
+# name = "hrushikesh"
+
+# print(f"HEllo my name is {name} and i am from {country}")
+
+
+# DAY 28 RECURSION 
+
+# FACTORIAL CALCULATION
+
+# def facto(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n *facto(n-1)
+    
+# print(facto(6))
+
+# # 6 * facto(5)
+# # 6 * 5 * facto(4)
+# # 6 * 5 * 4 * facto(3)
+# # 6 * 5 * 4 * 3 * facto(2)
+# # 6 * 5 * 4 * 3 * 2 * facto(1)
+# # 6 * 5 * 4 * 3 * 2 * 1 = 720
+
+# __________________________________________________________
+# FIBONACCI SERIES
+
+# f(0) = 0 
+# f(1) = 1
+# f(2)= f(1) + f(0) = 1
+# f(n) = f(n-1) + f(n -2)
+
+# def fibonacci(n):
+#     if n==0:
+#         return 0
+#     elif n==1 or n==2:
+#         return 1
+#     else:
+#         return (n-1) + (n-2)
+    
+# print(fibonacci(6))  # 9
+# ________________________________________________________
+
+# DAY : 33 -- DICTONARY 
+
+# info = {
+#     "name" : 'hrushikesh',
+#     'age' : 24,
+#     'gender': 'Male'
+# }
+# # print(info['name'])
+
+# # print(info.get('name2'))
+
+
+
+# # for key in info.keys():
+# #     print(info[key])
+
+# print(info.items())
+
+
+# _____________________________________________________________________
+
+# DAY 37 - FINALLY KEYWORD
 
 
